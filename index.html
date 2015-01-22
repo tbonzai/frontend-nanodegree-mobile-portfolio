@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Cameron's Profile Home Page">
@@ -148,6 +148,18 @@
 			ga('send', 'pageview');
 		</script>
 		<script src="http://www.google-analytics.com/analytics.js"></script>
-		<script async src="js/perfmatters.js"></script>
+		<script>
+			function logCRP() {
+			  var t = window.performance.timing,
+			    dcl = t.domContentLoadedEventStart - t.domLoading,
+			    complete = t.domComplete - t.domLoading;
+			  var stats = document.getElementById("crp-stats");
+			  stats.textContent = 'DCL: ' + dcl + 'ms, onload: ' + complete + 'ms';
+			}
+
+			window.addEventListener("load", function(event) {
+			  logCRP();
+			});
+		</script>
 	</body>
 </html>
