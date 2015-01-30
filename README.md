@@ -2,6 +2,8 @@
 
 To test my project, navigate to http://tbonzai.github.io/udacity_frontend_web_developer_project_4/
 
+See "Project References.txt" for information about websites I used while working on this project.
+
 To increase FPS, I made the following changes to main.js:
 1) To optimize pizza resizing, lines 391, 395-397, 445-450.
 2) To optimize sliding (scroll) pizzas, lines 494, 501-507, 537.
