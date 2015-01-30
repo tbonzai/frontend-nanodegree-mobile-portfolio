@@ -1,7 +1,11 @@
 ### Tips for evaluators
 
-1. To increase FPS, I made adjustments to main.js on lines 506-513, 525 and 544.
+To increase FPS, I made the following changes to main.js:
+1) To optimize pizza resizing, lines 391, 395-397, 445-450.
+2) To optimize sliding (scroll) pizzas, lines 494, 501-507, 537.
 
+NOTE: I'm not sure if it was intentional, but every one of the original HTML files in the
+project repository was missing a closing DIV tag at the bottom of the page.
 
 ### Website Performance Optimization portfolio project
 
