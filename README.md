@@ -5,11 +5,41 @@ To test my project, navigate to http://tbonzai.github.io/udacity_frontend_web_de
 See "Project References.txt" for information about websites I used while working on this project.
 
 To increase FPS, I made the following changes to main.js:
-1) To optimize pizza resizing, lines 391, 395-397, 445-450.
-2) To optimize sliding (scroll) pizzas, lines 494, 501-507, 537.
+1) To optimize pizza resizing, I modified lines 391, 395-397, 445-450.
+2) To optimize sliding (scroll) pizzas, I modified lines 494, 501-507, 537.
 
-NOTE: I'm not sure if it was intentional, but every one of the original HTML files in the
-project repository was missing a closing DIV tag at the bottom of the page.
+For the evaluation of my first submission, under the "Content Efficiency" section of the rubric,
+I was given a rating of "Does Not Meet Specifications". This is defined in the rubric as
+"Student does not identify opportunities or perform any optimizations impacting
+content efficiency." The instructor provided a comment "Make sure you minify your
+CSS and JS, compress images, inline or async CSS and JS as required."
+
+I got this rating despite the fact that:
+
+* I had compressed all images.
+* I had inlined or asynced all CSS and JS except for the ones associated with the Pizzeria.
+Note that the reason I did not minify or inline the pizzeria JS was because the Google
+Hangouts video associated with this project said not to bother with trying to improve
+the Page Speed score on that page, just get the FPS to the proper level.
+
+Additionally, in my first submission
+* I refactored all code including HTML to remove excessive white space.
+* I fixed dead links.
+* I fixed invalid HTML.
+* I did not minify because it showed no marked improvement on the PageSpeed tests.
+
+While not taking advantage of every possible opportunity, I would consider my original
+submission as being far from "not identify opportunities or perform any optimizations".
+
+So, this is my second submission for this project.
+
+To make absolutely certain that my efforts are not graded as Does Not Meet, I have both minified
+and inlined all CSS and JS on every page including the pizza.html page. The unminified
+version of all CSS and JS are still in the original files, with the necessary code fixes.
+In addition to minifying the CSS and JS, once they were merged into the HTML, I minified that
+as well.
+
+If my evaluation is determined to not meet specifications, please be specific.
 
 ### Website Performance Optimization portfolio project
 

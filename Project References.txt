@@ -4,3 +4,6 @@ https://piazza.com/class/i23vpy8h7l27la
 https://github.com/udacity/frontend-nanodegree-mobile-portfolio
 https://pages.github.com/
 http://stackoverflow.com/
+http://cssminifier.com/
+http://jscompress.com/
+http://www.willpeavy.com/minifier/
