@@ -8,7 +8,7 @@ To increase FPS, I made the following changes to main.js:
 1) To optimize pizza resizing, I modified lines 391, 395-397, 445-450.
 2) To optimize sliding (scroll) pizzas, I modified lines 494, 501-507, 537.
 
-For the evaluation of my first submission, under the "Content Efficiency" section of the rubric,
+In the evaluation for my first submission, under the "Content Efficiency" section of the rubric,
 I was given a rating of "Does Not Meet Specifications". This is defined in the rubric as
 "Student does not identify opportunities or perform any optimizations impacting
 content efficiency." The instructor provided a comment "Make sure you minify your
